@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: karla;
+}
+.joc-container
+{
+    height: 33%;
+    margin: 20px;
+    font-family: karla;
+    }
+
+.heading{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+
+}
+.ms-container{
+    background-color: rgb(88, 176,176);
+   height :33%;
+   color: white;
+   padding: 20px;
+   line-height: 1.5rem;
+   font-family: karla;
+   
+   
+}
+.big{
+    font-size: 1.5em;
+}
+button{
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px 20px;
+    border: yellowgreen;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.wu-container{
+    background-color: rgb(91, 192, 192);
+    height: 33%;
+    color: white;
+    padding: 20px;
+    font-family: karla;
+}
+@media screen and (min-width: 800px){
+    .heading{
+        font-size: 1.8rem;
+    }
+    p
+    {
+        font-size 1.5rem; 
+    }
+    
+}
+@media screen and (min-width: 1024px){
+    .heading{
+        font-size: 2.5rem;
+        margin: 13px;
+    }
+    .joc-container{
+        height:25vh;
+        font-size: 2rem;
+        font-family: karla;
+    }
+    .ms-container{
+        width: 45%;
+    float :left;
+    height: 50vh;
+    font-size: 2rem;
+    line-height: 2.5em;
+    font-family: karla;
+
+}
+.big{
+    font-size: 2em;
+}
+button{
+    padding:10px 80px 10px 80px;
+    font-size: 1.2em;
+}
+.wu-container{
+
+    width:40%;
+    float: left;
+    height: 50vh;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    font-family: karla;
+}
+    
+}
